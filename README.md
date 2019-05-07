@@ -11,6 +11,6 @@ It is up to you to adapt the compilation commands to run it on another operating
 
 # Installation 
 - Download
-- Make sure Graphviz is installed 
+- Make sure Graphviz is installed (https://graphviz.org/)
 - Run compilation : make compile 
 - Make sure everything works : make test 
