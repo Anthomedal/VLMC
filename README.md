@@ -14,3 +14,9 @@ It is up to you to adapt the compilation commands to run it on another operating
 - Make sure Graphviz is installed (https://graphviz.org/)
 - Run compilation : make compile 
 - Make sure everything works : make test 
+
+# Parallel computing
+You can use the VLMC library in parallel computing in order to gain in execution speed on certain computing steps. To compile the library in parallel computing mode :
+- Make sure openmp is installed (https://www.openmp.org/)
+- make compile_parallel
+- Test : make test_parallel
