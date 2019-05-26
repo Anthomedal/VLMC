@@ -103,8 +103,6 @@ void VLMC::drawContextTree(string filename)
             // La ligne qu'on s'apprête à écrire est déjà présente
             if (line == to_write)
             {
-                cout << line << endl;
-                cout << to_write << endl;
                 B = true;
                 break;
             }
